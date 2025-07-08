@@ -147,7 +147,6 @@ int main() {
     printf("\n\nEnter a value to delete from the tree: ");
     scanf("%d", &delVal);
     root = deleteNode(root, delVal);
-
     printf("\nAfter deletion:\n");
     printf("Inorder traversal: ");
     inorder(root);
